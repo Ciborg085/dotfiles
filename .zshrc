@@ -75,6 +75,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+unsetopt complete_aliases
+
+
 # Source configs
 for f in ~/.config/shellconfig/*; do source "$f"; done
 
